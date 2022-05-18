@@ -1,0 +1,18 @@
+{
+	"name": "learning-text-to-speech",
+	"version": "1.0.0",
+	"description": "Just a learning lesson",
+	"main": "app/index.js",
+	"repository": "git@github.com:tweenn/learning-text-to-speech.git",
+	"author": "Felipe Zuntini <felipezuntini@hotmail.com>",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"vite": "^2.9.9"
+	}
+}
