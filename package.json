@@ -10,9 +10,11 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"gh:pages": "push-dir --dir=dist --branch=master --force --verbose"
 	},
 	"devDependencies": {
+		"push-dir": "^0.4.1",
 		"vite": "^2.9.9"
 	}
 }
