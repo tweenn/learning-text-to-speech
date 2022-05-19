@@ -11,7 +11,8 @@
 		"dev": "vite",
 		"build": "vite build",
 		"preview": "vite preview",
-		"gh:pages": "push-dir --dir=dist --branch=master --force --verbose"
+		"push": "push-dir --dir=dist --branch=master --force --verbose",
+		"deploy": "sh __devops__/build.sh"
 	},
 	"devDependencies": {
 		"push-dir": "^0.4.1",
